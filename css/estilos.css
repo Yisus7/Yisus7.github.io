@@ -132,6 +132,93 @@ h1
 	}
 }
 
+@media screen and (max-width: 940px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	header nav
+	{
+		display: none;
+	}
+	#menuCelular
+	{
+		display: block;
+		width: 100%;
+	}
+	#imgPracticas
+	{
+		display: block;
+		width: 100%;
+	}
+	#artPracticas
+	{
+		display: block;
+		font-size: 1em;
+		width: 100%;
+	}
+	#titulo
+	{
+		display: block;
+		font-family: Verdana;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 760px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	header nav
+	{
+		display: none;
+	}
+	#menuCelular
+	{
+		display: block;
+		width: 100%;
+	}
+	#imgPracticas
+	{
+		display: block;
+		width: 100%;
+	}
+	#artPracticas
+	{
+		display: block;
+		font-size: 1em;
+		width: 100%;
+	}
+	#titulo
+	{
+		display: block;
+		font-family: Verdana;
+		max-width: 100%;
+	}
+}
+
+
 
 
 
