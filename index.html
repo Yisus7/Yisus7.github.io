@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Diseño Responsivo</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>Diseño adaptativo</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="js/eventos.js"></script>
+
+</head>
+<body>
+	<header>
+	<a href="" name="return"></a>
+		<nav id="titulo">
+			<h1>Practica Final - Sistema Responsivo</h1>
+		</nav>
+		<nav>
+				<div class="btn-group" role="group" aria-label="..." id="menuPrincipal">
+					<button type="button" class="btn btn-default" id="btnInicio"> Inicio </button>
+	  				<button type="button" class="btn btn-default" id="btnYo"> YO </button>
+	  				<button type="button" class="btn btn-default" id="btnPracticas"> Practicas </button>
+				</div>
+		</nav>
+	</header>
+	<select name="menuCelular" id="menuCelular" onchange="inicioApp()">
+			<option value="btnInicio"> Inicio </option>
+			<option value="btnYo"> YO </option>
+			<option value="btnPracticas"> Practicas </option>
+		</select>
+	<section>
+		<article id="artInicio">
+		Bienvenido al proyecto final.
+		<img src="img/geek.jpg" alt="" id="imgGeek">
+		</article>
+	</section>
+	<section id="sectionYo">
+		<h1>Curriculum Vitae</h1>
+		<article id="artPerfil">
+			<img src="img/perfil.png" alt="" id="imgPerfil">
+		</article>
+		<article id="artCurriculum">
+			Nombre: Jesús Alfonso López Sánchez <br>
+			Edad: 22 Años <br>
+			Sexo: Masculino <br>
+			Fecha de nacimiento: Septiembre 7 de 1992 <br>
+			Ocupacion: Estudiante y trabajador <br>
+			Numero de control: 11170883 <br>
+			Carrera: Ingenieria en Tecnologias de la Informacion y las Comunicaciones.
+			<br>
+			<br>
+			Escolaridad <br>
+			Primaria - Natalio Landeros Ramos <br>
+			Seundaria - Escuela secundaria Tecnica Industrial <br>
+			Preparatoria - Centro de Bachillerato Tecnologico Industrial y de Servicios CBTIS224 <br>
+			Profesional - Instituto Tecnologico de Culiacan ITC <br>
+			<br>
+			Vida laboral <br>
+			1- Almacenista en "Playeras y maz S de R.L de C.V" <br>
+			2- Diseñador Grafico en "Publi-Stamp S.A de C.V" <br>
+
+			Direccion: Culiacan Sinaloa <br>
+			Telefono: 6672111036 <br>
+			E-mail: jesusalfonso7@gmail.com <br>
+		</article>
+	</section>
+	<section id="sectionPracticas">
+		<article>
+			<h1>Iniciando en HTML</h1>
+			<img src="img/html1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Al inicio del curso no sabiamos nada, asi que fuimos
+			aprendiendo poco a poco sobre como utilizar la sintaxis y el entorno de HTML 5 utilizando el programa Sublime text 2.</p>
+		</article>
+		<article>
+			<h1>HTML y Links</h1>
+			<img src="img/html2.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Despues avanzamos y utilizando links dentro de la pagina hicimos que nuestra pagina fuera un poco mas inteligente y amigable para el usuario.</p>
+		</article>
+		<article>
+			<h1>HTML y Tablas</h1>
+			<img src="img/tabla1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Continuando con la organizacion de los objetos y textos utilizamos las tablas dentro de una pagina web, codificando tablas y colspan para ver la distribucion.</p>
+		</article>
+		<article>
+			<h1>HTML y Tablas</h1>
+			<img src="img/tabla2.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Continuando con la organizacion de los objetos y textos utilizamos las tablas dentro de una pagina web, ahora para organizar la pagina del TEC.</p>
+		</article>
+		<article>
+			<h1>HTML y Formularios</h1>
+			<img src="img/formulario1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Ahora incursionaremos en el mundo de los formularios, donde tu podeis incluir informacion y por medio de inputs guardarda y despues enviarla con un mailto o algo similar a un servidor o correo electronico.</p>
+		</article>
+		<article>
+			<h1>HTML y Formularios</h1>
+			<img src="img/formulario2.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Usando inputs y labels, y un que otro select vamos a armar un formulario completo sobre un curriculum vitae.</p>
+		</article>
+		<article>
+			<h1>HTML, Video y Audio</h1>
+			<img src="img/video1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Poniendo valor agregado a nuestra pagina, vamos a insertar video y audio.</p>
+		</article>
+		<article>
+			<h1>CSS</h1>
+			<img src="img/css4.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Ahora vamos a poner diseño y organizacion a nuestra pagina con CSS.</p>
+		</article>
+		<article>
+			<h1>CSS</h1>
+			<img src="img/css1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Utilizando el mismo CSS vamos a organizar por completo una pagina.</p>
+		</article>
+		<article>
+			<h1>CSS</h1>
+			<img src="img/css2.png" alt="" id="imgPracticas">
+			<p id="artPracticas">De igual forma vamos a colocar diseño a una pagina para organizar las imagenes y textos.</p>
+		</article>
+		<article>
+			<h1>CSS</h1>
+			<img src="img/css3.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Este fue un examen, donde por medio de HTML y CSS organizamos toda la pagina.</p>
+		</article>
+		<article>
+			<h1>JAVASCRIPT</h1>
+			<img src="img/js1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Ahora entrando en otro tema, vamos a utilizar las bondades de Java Script para emitir alertas y hacer las cosas mas amenas.</p>
+		</article>
+		<article>
+			<h1>JAVASCRIPT</h1>
+			<img src="img/js2.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Seguimos usando JS para ahora construir una calculadora.</p>
+		</article>
+		<article>
+			<h1>BOOTSTRAP</h1>
+			<img src="img/bootstrap1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Entramos a lo mero bueno, ahora vamos a utilizar bootstrap para darle formato y belleza a nuestra pagina web.</p>
+		</article>
+		<article>
+			<h1>HTML - BOOTSTRAP - JQUERY - JS - PHP </h1>
+			<img src="img/todo1.png" alt="" id="imgPracticas">
+			<p id="artPracticas">Por ultimo vamos a mexclar todas las habilidades adquiridas para crear una practica final con HTML5, CSS, JQUERY, JS y PHP.</p>
+		</article>
+		<article>
+			<img src="img/todo2.png" alt="" id="artFinal">
+		</article>
+		<article>
+			<img src="img/todo3.png" alt="" id="artFinal">
+		</article>
+		<article>
+			<img src="img/todo4.png" alt="" id="artFinal">
+		</article>
+		<article>
+			<img src="img/todo5.png" alt="" id="artFinal">
+		</article>
+		<article>
+			<img src="img/todo6.png" alt="" id="artFinal">
+		</article>
+		<article>
+			<img src="img/todo7.png" alt="" id="artFinal">
+		</article>
+		<article id="artRegresar">
+		<br>
+			<button><a href="#return">Regresar</a></button>
+		</article>
+	</section>
+	<footer>
+		<section>Programacion Web PW 10 AM 2015 Instituto Tecnologico de Culiacán.</section>
+	</footer>
+</body>
+</html>
